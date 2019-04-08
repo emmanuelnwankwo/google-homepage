@@ -1,0 +1,156 @@
+/*==================================================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-size: small;
+    color: #222;
+    font-family: arial, sans-serif;
+    height: 100%;
+}
+
+/*==================================================================*/
+
+/*  Navbar  */
+nav {
+    text-align: right;
+    display: inline-block;
+    line-height: 24px;
+    font-size: 13px;
+    width: 100%;
+}
+
+ul li {
+    text-align: center;
+    display: inline;
+}
+
+ul li a {
+    text-align: center;
+    border-color: 1px solid #222;
+    padding: 10px;
+    color: #5F6368;
+}
+#navbar {
+    display: inline;
+    margin: 0 15px 0 0;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+#gapps {
+    width: 1.3%;
+    height: 1.3%;
+    margin: 15px 0px 0px 0px;
+    opacity: .65;
+    padding-top: 5px;
+}
+
+#signin {
+    background-color: #4285F4;
+    color: #FFFF;
+    border-radius: 2px;
+    font-weight: bold;
+    padding: 6px 12px;
+    pointer-events: none;
+}
+
+/*   Logo and Search Area    */
+#main {
+    text-align: center;
+    width: 40%;
+    margin: 150px auto;
+}
+  
+#search-box {
+    border: 1px solid #DFE1E5;
+    width: 100%;
+    border-radius: 36px;
+    margin: 15px;
+}
+
+#search {
+    background-color: transparent;
+    color: rgba(0, 0, 0, .87);
+    border: none;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    width: 90%;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 40px !important;
+}
+
+#search-box:hover {
+    border-color: rgba(223, 225, 229, 0);
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+}
+  
+button {
+    border: 1px solid #F5F5F5;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    color: #5F6368;
+    padding: 8px 16px;
+    margin: 10px 15px;
+    cursor: pointer;
+  }
+  
+#button {
+    margin: 30px auto;
+}
+
+button:hover {
+    border: 1px solid #D4D4D4;
+}
+
+p a {
+    color: blue;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+
+/*   Footer   */
+footer div #right {
+    float: right;
+    text-align: right;
+}
+
+footer {
+    width: 100%;
+    color: rgba(0, 0, 0, .54);
+    position: fixed;
+    bottom: 0;
+}
+#fbar {
+    background-color: #EFEFEF;
+    padding: 10px 8px;
+    padding-right: 27px;
+    font-size: 13px;
+    color: #5F6368;
+}
+#fbar a {
+    padding: 0px 0px 0px 27px;
+}
+
+#floc {
+    background-color: #EFEFEF;
+    border: 1px solid #E0E0E0;
+    padding: 10px 35px;
+    font-size: 15px;
+  }
+
