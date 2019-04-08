@@ -3,5 +3,5 @@ The goal of this mini-project is to deconstruct an existing web page and rebuild
 
 From The Odin Project's [curriculum] (http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
 
-#Deployed here👇
+# Deployed here👇
 https://emmanuelnwankwo.github.io/google-homepage/
